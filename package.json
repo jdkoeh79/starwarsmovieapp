@@ -1,0 +1,15 @@
+{
+  "name": "starwarsmovieapp",
+  "version": "1.0.0",
+  "description": "code-along: https://www.youtube.com/watch?v=NALxjuyRXaE",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin Koehler",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "express": "^4.14.0"
+  }
+}

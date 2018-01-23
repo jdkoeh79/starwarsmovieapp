@@ -1,0 +1,1052 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"episode",
+				"episode_number"
+			],
+			[
+				"err",
+				"err"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"v",
+				"visible"
+			],
+			[
+				"get",
+				"getElementsByClassName"
+			],
+			[
+				"parent",
+				"parentmethod1"
+			],
+			[
+				"De",
+				"Developer"
+			],
+			[
+				"font-s",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/starwarsmovieapp/app.js",
+			"settings":
+			{
+				"buffer_size": 734,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/starwarsmovieapp/views/home.ejs",
+			"settings":
+			{
+				"buffer_size": 740,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/starwarsmovieapp/movies.json",
+			"settings":
+			{
+				"buffer_size": 6108,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "// var jsondata = {\n// \t\"pncounts\": [\n// \t\t{\n// \t\t\"part_number\" : \"'CTL.J4.MOTHERBOARD'\",\n// \t\t\"location\" : ['7-B-3', '2-C-2'],\n// \t\t\"date_counted\" : ['08/29/2016', '10/05/2016']\n// \t\t},\n\n// \t\t{\n// \t\t\"part_number\" : \"\",\n// \t\t\"location\" : [],\n// \t\t\"date_counted\" : []\n// \t\t}\n// \t]\n// };\n\nvar jsondata = {};\nvar pncounts = [];\njsondata.pncounts = pncounts;\n\n\n\n\nvar index = [['HP14.LCDHOUSING.BLK', ['08/26/2016', '7-A-2']], \n['CTL.J4.MOTHERBOARD', ['08/29/2016', '7-B-3'], ['10/05/2016', '2-C-2']], \n['LTN133YL03-L01', ['08/30/2016', '7-A-4']], \n['AP0RO000370', ['08/30/2016', '7-D-4']], \n['HC101IPB-260-40A', ['08/30/2016', '7-D-3']], \n['ADP-40THA', ['08/31/2016', '7-A-6']], \n['60.EF2N7.002', ['08/30/2016', '7-C-4']], \n['AP138000200', ['08/31/2016', '7-B-6']], \n['20CD-S02D00.DIGILCDASSEM', ['08/31/2016', '7-B-6']], \n['B116XW01V0', ['08/31/2016', '7-B-6'], ['09/27/2016', '6-B-5']], \n['SM-P600.CHARGINGPORT', ['08/31/2016', '7-C-5']], \n['B116XW03V.0', ['08/31/2016', '7-C-5'], ['09/27/2016', '6-B-5'], ['09/28/2016', '6-C-2']], \n['111776305883', ['08/31/2016', '7-C-6']], \n['45N1059', ['09/08/2016', '4-A-3'], ['10/06/2016', '2-B-7']], \n['IPADAIRDIGIBLACK', ['09/14/2016', '4-A-4']], \n['N140BGE-L12REVC1', ['09/14/2016', '4-B-4']], \n['B116XAN03 V.1', ['09/15/2016', '4-B-5']], \n['DD0BUHLC020', ['09/16/2016', '4-C-5']], \n['B116XW03 V.1', ['09/16/2016', '4-C-5'], ['09/22/2016', '5-A-7'], ['09/28/2016', 'N/A'], ['10/04/2016', '4-D-4']], \n['IPADMINILCDRETINA', ['09/21/2016', '4-C-8']], \n['04W3873', ['09/21/2016', '5-A-1'], ['09/23/2016', '5-A-7'], ['01/04/2017', '4-A-3']], \n['LTN116AT02', ['09/21/2016', '4-C-7']], \n['N173FGE-L23REVC2', ['09/21/2016', '4-B-7']], \n['N116BGE-EA2REVC.2', ['09/21/2016', '4-B-8']], \n['XE303C12.HINGECOVER', ['09/22/2016', '5-C-1']], \n['XE303C12.PALMREST', ['09/22/2016', '5-B-3']], \n['04W3674', ['09/22/2016', '5-A-5'], ['09/30/2016', '5-B-5'], ['11/29/2016', '1-B-5']], \n['XE303C12.LCDHOUSING', ['09/22/2016', '5-A-5']], \n['IPAD3DIGIBLACK', ['09/22/2016', '5-A-7']], \n['HSD101PWW1', ['09/26/2016', '6-A-3']], \n['XE303C12.LB.REFURB', ['09/23/2016', '5-B-5']], \n['MACPRO13.A1278.LCDHOUSINGASM', ['09/26/2016', '6-B-1']], \n['LP116WH2(TL)(C1)', ['09/26/2016', '6-B-2']], \n['50.SHEN7.004', ['09/27/2016', '6-B-3']], \n['HP11-1101.LCDHOUSING', ['09/27/2016', '6-B-4']], \n['00HW171', ['09/27/2016', '6-B-5']], \n['SM-P600.LCD', ['09/27/2016', '6-B-5']], \n['N116B6-L04REVC1', ['09/27/2016', '6-B-5']], \n['N133BGE-EAB REV.C1', ['09/28/2016', '6-C-1']], \n['45N1063', ['09/28/2016', '6-C-2']], \n['N116BGE-L42REV.B2', ['09/29/2016', '6-C-5']], \n['ACER.C720.CAMERA', ['09/29/2016', '6-D-1']], \n['CB30-B3121.MOTHERBOARD.2GB', ['09/30/2016', 'N/A']], \n['R36YR', ['10/05/2016', '2-A-2']], \n['DELL CHROMEBOOK 11 P22T BLUE_LCD HOUSING', ['10/05/2016', '2-B-2']], \n['VY6KH', ['10/05/2016', '2-A-4']], \n['5425NFPC-1REV2', ['10/05/2016', 'N/A']], \n['N116BGE-L32-SI', ['10/05/2016', '2-B-2']], \n['3CP5R', ['10/03/2016', '2-A-1'], ['10/04/2016', '2-C-1'], ['10/05/2016', '2-C-2']], \n['0Y84J9', ['10/05/2016', '2-C-4']], \n['8V9TR', ['10/05/2016', '2-C-2']], \n['6M.MJAN7.001', ['10/11/2016', '2-B-5'], ['12/27/2016', 'N/A']], \n['X200M.MOTHERBOARD.4GB.WIN', ['10/13/2016', '2-C-5']], \n['60.SHEN7.002', ['10/13/2016', '2-C-5'], ['12/29/2016', 'N/A']], \n['04W4119', ['10/13/2016', '2-A-6']], \n['FA0NU000900', ['10/13/2016', '2-A-8']], \n['04W4099', ['10/13/2016', '2-A-8']], \n['LP133WF2SPA1', ['10/14/2016', 'N/A']], \n['60.SHEN7.004', ['10/14/2016', '2-C-7']], \n['DANL6LPPI6B0', ['10/14/2016', '2-C-6']], \n['37NL6TC0040', ['10/14/2016', '2-C-8']], \n['HP.4530S.LCD.HOUSING.SHELL.ONLY', ['10/17/2016', '2-D-1']], \n['BA92-09332A', ['10/19/2016', '2-D-3']], \n['A000286350', ['10/25/2016', 'N/A']], \n['W3TXP', ['12/30/2016', '1-A-7']], \n['IPADAIRLCD', ['01/03/2017', '1-A-3']], \n['N116BGE-E32REVC.1', ['01/03/2017', '4-A-1']]];\n\n\ndocument.write(index);",
+			"file": "/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/pncounts.js",
+			"file_size": 3943,
+			"file_write_time": 131292708153516088,
+			"settings":
+			{
+				"buffer_size": 3851,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/pncounts/template.html",
+			"settings":
+			{
+				"buffer_size": 219,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/SublimeREPL-Python.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"sublimelinter",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"gutter",
+				"SublimeLinter: Choose Gutter Theme"
+			],
+			[
+				"package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"package Control: remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"gutter",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/starwarsmovieapp",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/starwarsmovieapp/public/stylesheets",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/starwarsmovieapp/views"
+	],
+	"file_history":
+	[
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Part Number Counts/pncounts.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/pncounts.json",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/starwarsmovieapp/procfile",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/starwarsmovieapp/views/notFound.ejs",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/starwarsmovieapp/routes/index.js",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/starwarsmovieapp/views/movie_single.ejs",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/starwarsmovieapp/views/partials/header.ejs",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/starwarsmovieapp/views/home.ejs",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/starwarsmovieapp/views/partials/footer.ejs",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/starwarsmovieapp/app.js",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/starwarsmovieapp/views/partials/head.ejs",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/starwarsmovieapp/public/stylesheets/styles.css",
+		"/C/Users/VAIO/Dropbox/Justin/Code/HTML CSS/template.html",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/starwarsmovieapp/views/partials/scripts.ejs",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/starwarsmovieapp/movies.json",
+		"/C/Users/VAIO/.bash_profile",
+		"/C/Users/VAIO/.bashrc",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/customerapp/app.js",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/customerapp/views/partials/footer.ejs",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/customerapp/public/js/main.js",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/customerapp/views/partials/header.ejs",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/customerapp/views/index.ejs",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/customerapp/package.json",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/node-practice/package.json",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/node-practice/index.html",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/node-practice/app.js",
+		"/C/Users/VAIO/Dropbox/Justin/Code/jdkoeh79.co.nf/css/style.css",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/database_setup.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/PHP/template.php",
+		"/C/Users/VAIO/Dropbox/Justin/Code/HTML CSS/index.html",
+		"/C/Users/VAIO/Dropbox/Justin/Code/HTML CSS/practice page 3 columns.html",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Udacity/Intro to Relational Databases/zootables.txt",
+		"/C/Users/VAIO/Dropbox/Justin/Code/jdkoeh79.co.nf/index.html",
+		"/C/Users/VAIO/Dropbox/Justin/Code/HTML CSS/bootstrap navbar example/index.html",
+		"/C/Users/VAIO/Dropbox/Justin/Code/HTML CSS/bootstrap-3.3.7-dist/css/bootstrap.css",
+		"/C/Users/VAIO/Dropbox/Justin/Code/HTML CSS/bootstrap navbar example/css/bootstrap.min.css",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Udacity/JavaScript Design Patterns/Cat Clicker/index.html",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Udacity/JavaScript Design Patterns/Cat Clicker/js/scripts.js",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/toUpperCase/touppercase.html",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Udacity/JavaScript Design Patterns/Cat Clicker/css/style.css",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/toUpperCase/index.html",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/toUpperCase/style.css",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/toUpperCase/bootstrap.css",
+		"/C/Users/VAIO/Dropbox/Justin/Code/jdkoeh79.co.nf/css/bootstrap.css",
+		"/C/Users/VAIO/Dropbox/Justin/Code/HTML CSS/HTML CSS Resume Code-Along/css/style.css",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Udacity/JavaScript Design Patterns/Cat Clicker 1.0/js/scripts.js",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Udacity/JavaScript Design Patterns/Cat Clicker 1.0/css/style.css",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Udacity/JavaScript Design Patterns/Cat Clicker 1.0/index.html",
+		"/C/Users/VAIO/Downloads/bootstrap-3.3.6-dist/bootstrap-3.3.6-dist/css/bootstrap.min.css",
+		"/C/Users/VAIO/Dropbox/Justin/Code/HTML CSS/HTML CSS Resume Code-Along/index.html",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript Practice/practice3.js",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript Games/Bat Hunt/index.html",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript Practice/jspractice.html",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript Games/Bat Hunt/README.md",
+		"/C/Users/VAIO/Dropbox/Justin/Code/JavaScript Practice/practice2.js",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Udacity/JavaScript Basics/Resume Repo/frontend-nanodegree-resume/index.html",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Udacity/JavaScript Basics/Resume Repo/frontend-nanodegree-resume/js/resumeBuilder.js",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Udacity/JavaScript Basics/js.html",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Udacity/JavaScript Basics/strings.js",
+		"/C/Users/VAIO/Dropbox/Justin/The Repair Depot/New Text Document.txt",
+		"/C/Users/VAIO/Dropbox/Justin/Gmail Accounts.txt",
+		"/C/Users/VAIO/Dropbox/Justin/Xmarks Console Log.txt",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Udacity/How to Use Git and GitHub/recipes/chili-recipe.txt",
+		"/C/Users/VAIO/Dropbox/Justin/Code/sarah_changes.sh",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Farkle/My Farkle/farkle.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Git/Command Line/commands.txt",
+		"/C/Users/VAIO/Dropbox/Justin/Code/bootstrap.min-CDN-Template.html",
+		"/C/Users/VAIO/Dropbox/Justin/Code/age.html",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Rock Paper Scissors in JS/rockpaperscissors.js",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Git/bash_profile",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Udacity/asteroids/index.html",
+		"/C/Users/VAIO/bash_profile_course",
+		"/C/Users/VAIO/Dropbox/Justin/Code/jdkoeh79.co.nf/css/style_current.css",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Udacity/Pappu Pakia/pappu-pakia/js/utils.js",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Udacity/Resume Repo/frontend-nanodegree-resume/js/resumeBuilder.js",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Udacity/Resume Repo/frontend-nanodegree-resume/index.html",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Udacity/Resume Repo/frontend-nanodegree-resume/css/style.css",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Udacity/Resume Repo/frontend-nanodegree-resume/index with comments.html",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Farkle/Github hoelter farkle/pyfarkle.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Farkle/Github boydjohnson ficklefarkle/farkle/gameplayengine/game.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Farkle/Github awshepard farkle/farkle.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Udacity - Fundamentals w. Python/Lesson 2/mindstorm.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Udacity - Fundamentals w. Python/Lesson 1/renamefiles.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Udacity - Fundamentals w. Python/Lesson 1/secret_message.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Udacity - Fundamentals w. Python/Lesson 1/Secret Message/secret_message.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Udacity - Fundamentals w. Python/takeabreak.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Udacity - Fundamentals w. Python/renamefiles.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Udacity - Intro to Comp Sci/Web Crawler.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Udacity - Intro to Comp Sci/5-2.2 Shift n Letters.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Udacity - Intro to Comp Sci/5-2.3 Rotate.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Udacity - Intro to Comp Sci/6-1.5 Deep Count.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Udacity - Intro to Comp Sci/5 Spin Loop (time_execution).py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Udacity - Intro to Comp Sci/4-2.4 Download Calculator.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Udacity - Intro to Comp Sci/5-1.3 Is Offered (Dictionaries).py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Udacity - Intro to Comp Sci/6.2 Rabbits.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Udacity - Intro to Comp Sci/5.7 Memoization (Needs fixing).py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Udacity/Recursive Definitions/Recursive Fibonacci.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Udacity/test.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Udacity/Rabbits.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Codeacademy/Classes.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Codeacademy/Class Inheritance.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Codeacademy/File Input-Output.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Codeacademy/output.txt",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Codeacademy/Class Example (Triangle).py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Codeacademy/Class Super Call.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Udacity/shift.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Udacity/rotate.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Udacity/Dates.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/test.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/farkle.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/farkle - Copy.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/farkle_test.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Codeacademy/lambda.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/farkle_list.py",
+		"/C/Users/VAIO/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/config/Python/Main.sublime-menu",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Python Dictionary Features.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/Python/Udacity/Add graph to web crawler.py",
+		"/C/Users/VAIO/Dropbox/Justin/Code/jdkoeh79.co.nf/css/reset.css",
+		"/C/Users/VAIO/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/VAIO/AppData/Roaming/Sublime Text 3/Packages/Browser Refresh/Default (Windows).sublime-keymap",
+		"/C/Users/VAIO/AppData/Roaming/Sublime Text 3/Packages/User/SublimeREPL-Python.sublime-build",
+		"/C/Users/VAIO/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"id=\"inp",
+			"id=inp",
+			"</h2",
+			"var x = document.getElementById(id);",
+			"nameCat",
+			"class=\"name\"",
+			"center-block\">",
+			" onclick=\"counter(this.id)\"",
+			"center",
+			"img-responsive",
+			"class=\"img-responsive\"",
+			"\">\n",
+			".header",
+			"col-lg-4",
+			"borde",
+			"border",
+			"codeacademy",
+			"border-bottom",
+			"border-top",
+			"md",
+			"center",
+			"-color",
+			"none",
+			"display",
+			":",
+			"true",
+			"tiny",
+			"()",
+			"next_month",
+			"current_month",
+			"farkleActions.",
+			"whosTurn",
+			").",
+			"dye",
+			"h2",
+			"h4"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/starwarsmovieapp/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 734,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								696,
+								696
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/starwarsmovieapp/views/home.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								404,
+								470
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										405,
+										408
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										405,
+										408
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/code-alongs/starwarsmovieapp/movies.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6105,
+								6105
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										6104,
+										6105
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										5281,
+										5282
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/pncounts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3851,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3851,
+								3851
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1188.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/VAIO/Dropbox/Justin/Code/JavaScript/pncounts/template.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										14,
+										15
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/angle_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/SublimeREPL-Python.sublime-build",
+	"project": "starwarsmovieapp.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 220.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
